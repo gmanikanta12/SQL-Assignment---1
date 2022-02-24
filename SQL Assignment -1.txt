@@ -1,0 +1,15 @@
+SQL ASSIGNMENT -1
+
+1. fetch the first name from worker table using alias name as worker_name 
+
+    SELECT FIRST_NAME AS WORKER_NAME FROM WORKER
+
+2.fetch unique values of department from worker table.
+
+    SELECT DISTINCT DEPARTMENT FROM WORKER
+
+3. fetch last 5 records from the table
+
+   SELECT * FROM WORKER 
+   ORDER BY WORKER_ID DESC
+   TOP 5
